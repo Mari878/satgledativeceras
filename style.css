@@ -1,5 +1,5 @@
 body {
-	background-image: url(background.png);
+	background-image: url(slike/background.png);
 	image-size: cover;
 	font-family: arial;
 	margin: 0;
@@ -63,7 +63,7 @@ nav ul li a {
 
 
 /*opste setup footera*/
-footer{
+/*footer{
 	margin-top: 5px;
 	margin-right:60px;
 	margin-bottom: 20px;
@@ -128,7 +128,7 @@ footer{
 
 
 
-
+*/
 
 
 
