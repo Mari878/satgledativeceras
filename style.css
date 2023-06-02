@@ -1,0 +1,137 @@
+body {
+	background-image: url(background.png);
+	image-size: cover;
+	font-family: arial;
+	margin: 0;
+
+
+}
+
+/*naslov*/
+h1{
+	color: #FFEC0E;
+	text-align: center;
+	background-color: #7D7515;
+
+	font-size: 75px;
+	margin: 5px;
+	margin-top: 5px;
+	margin-right: 120px;
+	margin-bottom: 2px;
+	margin-left: 120px;
+	padding: 2px;
+
+
+
+
+}
+
+
+/*heder tekst nego reci ti meni*/
+.hedertekst {
+	color: white;
+	background: #514A00;
+	font-size: 30px;
+	margin: 5px;
+	margin-top: 120px;
+	margin-right: 920px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding: 10 0 20 0;
+	
+}
+
+
+
+/*ovo su crni dugmici/tabovi*/
+nav ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style: none;
+	padding: 5px 15px;
+	margin-top: 15px;
+	
+}
+
+
+/*ovaj deo koda sluzi za boju slova u box=ovima pocetna, toceno*/
+nav ul li a {
+	color: white;
+	
+}
+
+
+/*opste setup footera*/
+footer{
+	margin-top: 5px;
+	margin-right:60px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	padding: 2px;
+}
+
+.sadrzaj {
+	color: white;
+	background: #514A00;
+	font-size: 30px;
+	margin: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding: 10 0 20 0;
+
+}
+
+
+.tekst1{
+	color: white;
+	background: #514A00;
+	font-size: 30px;
+	margin: 5px;
+	margin-top: 5px;
+	margin-right: 47%;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding: 10 0 20 0;
+}
+
+.cenepica {
+	line-height: 45px;
+	color: white;
+	background: #514A00;
+	font-size: 30px;
+	margin: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding: 10 0 20 0;
+}
+
+.about {
+	color: black;
+	background: white;
+	font-size: 15px;
+	margin: 5px;
+	margin-top: 600px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 1000px;
+	padding: 10 0 20 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
