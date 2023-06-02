@@ -1,37 +1,47 @@
 body {
-	background-image: url(slike/background.png);
+	background-color: lightblue;
 	image-size: cover;
 	font-family: arial;
 	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width:100%;
+	background-image: url("slike/background.jpg");
+	background-size: cover;
+	background-position: center center;
 
 
 }
 
-/*naslov*/
+.logo {
+	width: 150px;
+	height: 150px;
+}
+
+/*STA GEDATI VECERaS*/
 h1{
-	color: #FFEC0E;
+	color: rgba(108,9,4,255);
 	text-align: center;
-	background-color: #7D7515;
-
-	font-size: 75px;
-	margin: 5px;
-	margin-top: 5px;
-	margin-right: 120px;
-	margin-bottom: 2px;
-	margin-left: 120px;
-	padding: 2px;
-
-
-
+	background-color: rgba(239,224,142,255);
+	font-size: 70px;
+	padding: 5px;
+	margin: auto;
+	display: inline-block;
+	margin-top: 0;
+	
 
 }
 
+
+.nav-bar {
+	text-decoration: none;
+}
 
 /*heder tekst nego reci ti meni*/
-.hedertekst {
+/*.hedertekst {
 	color: white;
 	background: #514A00;
-	font-size: 30px;
+	font-size: 70px;
 	margin: 5px;
 	margin-top: 120px;
 	margin-right: 920px;
@@ -39,12 +49,12 @@ h1{
 	margin-left: 10px;
 	padding: 10 0 20 0;
 	
-}
+}*/
 
 
 
 /*ovo su crni dugmici/tabovi*/
-nav ul li{
+/*nav ul li{
 	background: black;
 	color: white;
 	display: inline-block;
@@ -52,12 +62,12 @@ nav ul li{
 	padding: 5px 15px;
 	margin-top: 15px;
 	
-}
+}*/
 
 
 /*ovaj deo koda sluzi za boju slova u box=ovima pocetna, toceno*/
-nav ul li a {
-	color: white;
+/*nav ul li a {
+	color: white;*/
 	
 }
 
