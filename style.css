@@ -1,5 +1,7 @@
 * {
 	outline: 1px solid red;
+	padding: 0;
+	margin: 0;
 }
 body {
 	background-color: lightblue;
@@ -17,135 +19,52 @@ body {
 }
 
 .logo {
-	width: 120px;
-	height: 120px;
+	display: flex;
+	justify-content: left;
 }
 
-/*STA GEDATI VECERaS*/
-h1{
-	color: rgba(108,9,4,255);
-	text-align: center;
-	background-color: rgba(239,224,142,255);
-	font-size: 30px;
-	padding: 5px;
-	margin: 5px 2px;
-	display: inline-block;
-	margin-top: 0;
-	float: right;
-
-
+.naslov{
+	
+	margin:0px;
 }
 
 
-.nav-bar {
+
+.naslov img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+/*ovo je sta gleadti veceras*/
+.naslov h1 span {
+  position: relative;
+  top: 37px;
+  left: 10px;
+  font-size: 25px;
+  background-color: rgba(239,224,142,255);
+  color: rgba(108,9,4,255);
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 2px 5px;
+
+}
+
+
+
+.nav-area {
 	text-decoration: none;
+	background-color: rgba(239,224,142,255);
+  	color: rgba(108,9,4,255);
+  	margin: 80px 0px 0px 0px;
+  	padding: 0;
 }
 
-/*heder tekst nego reci ti meni*/
-/*.hedertekst {
-	color: white;
-	background: #514A00;
-	font-size: 70px;
-	margin: 5px;
-	margin-top: 120px;
-	margin-right: 920px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-	padding: 10 0 20 0;
-	
-}*/
 
 
-
-/*ovo su crni dugmici/tabovi*/
-/*nav ul li{
-	background: black;
-	color: white;
-	display: inline-block;
-	list-style: none;
-	padding: 5px 15px;
+p {
 	margin-top: 15px;
-	
-}*/
-
-
-/*ovaj deo koda sluzi za boju slova u box=ovima pocetna, toceno*/
-/*nav ul li a {
-	color: white;*/
-	
+	color: lightblue;
+	background-color: darkblue;
 }
-
-
-/*opste setup footera*/
-/*footer{
-	margin-top: 5px;
-	margin-right:60px;
-	margin-bottom: 20px;
-	margin-left: 60px;
-	padding: 2px;
-}
-
-.sadrzaj {
-	color: white;
-	background: #514A00;
-	font-size: 30px;
-	margin: 5px;
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 10px;
-	padding: 10 0 20 0;
-
-}
-
-
-.tekst1{
-	color: white;
-	background: #514A00;
-	font-size: 30px;
-	margin: 5px;
-	margin-top: 5px;
-	margin-right: 47%;
-	margin-bottom: 5px;
-	margin-left: 10px;
-	padding: 10 0 20 0;
-}
-
-.cenepica {
-	line-height: 45px;
-	color: white;
-	background: #514A00;
-	font-size: 30px;
-	margin: 5px;
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 10px;
-	padding: 10 0 20 0;
-}
-
-.about {
-	color: black;
-	background: white;
-	font-size: 15px;
-	margin: 5px;
-	margin-top: 600px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 1000px;
-	padding: 10 0 20 0;
-}
-
-
-
-
-
-
-
-*/
-
-
-
-
-
-
