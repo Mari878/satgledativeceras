@@ -45,7 +45,7 @@ nav {
   justify-content: space-between;
   background-color: rgba(239,224,142,255);
   color: rgba(108,9,4,255);
-  padding: 1em;
+  padding: 5px 16px;
 }
 nav a {
   text-decoration: none;
@@ -53,7 +53,7 @@ nav a {
   color: rgba(108,9,4,255);
 }
 #logo {
-  font-size: 2em;
+  font-size: 32px;
   font-weight: 900;
 }
 input[type="checkbox"] {
@@ -67,10 +67,10 @@ label {
 ul {
   list-style: none;
   display: flex;
-  gap: 1em;
+  gap: 16px;
 }
 ul a {
-  padding: 0.5em;
+  padding: 8px;
 }
 ul a:hover {
   background-color: rgba(239,224,142,255);
@@ -80,6 +80,135 @@ ul a:hover {
   border-bottom: 2px solid #ffffff;
 }
 
+/*@media screen and (max-width: 320px){
+	label {
+    display: block;
+  }
+  ul {
+    font-size: 10px;
+    position: absolute;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BABB8;
+    gap: 32em;
+    top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    transition: 0.5s;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    left: 0;
+  }
+  ul a:hover {
+    background-color: #2c8eec;
+  }
+#logo{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+}
+
+
+
+@media only screen and (min-width: 320px){
+	label {
+    display: block;
+  }
+  ul {
+    font-size: 10px;
+    position: absolute;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BABB8;
+    gap: 32em;
+    top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    transition: 0.5s;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    left: 0;
+  }
+  ul a:hover {
+    background-color: #2c8eec;
+  }
+#logo{
+	font-size: 22px;
+	font-weight: 900;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 350px) {
+	label {
+    display: block;
+  }
+  ul {
+    font-size: 10px;
+    position: absolute;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BABB8;
+    gap: 32em;
+    top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    transition: 0.5s;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    left: 0;
+  }
+  ul a:hover {
+    background-color: #2c8eec;
+  }
+#logo{
+	font-size: 25px;
+	font-weight: 900;
+}
+}
+
+@media only screen and (min-width: 414px) {
+	label {
+    display: block;
+  }
+  ul {
+    font-size: 10px;
+    position: absolute;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BABB8;
+    gap: 32em;
+    top: 60px;
+    width: 100%;
+    height: calc(100vh - 60px);
+    transition: 0.5s;
+  }
+  input[type="checkbox"]:checked ~ ul {
+    left: 0;
+  }
+  ul a:hover {
+    background-color: #2c8eec;
+  }
+#logo{
+	font-size: 30px;
+	font-weight: 900;
+}
+}
+
+*/
+
 
 
 @media screen and (max-width: 600px) {
@@ -87,14 +216,14 @@ ul a:hover {
     display: block;
   }
   ul {
-    font-size: 1.2em;
+    font-size: 19px;
     position: absolute;
     left: -100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #9BABB8;
-    gap: 2em;
+    gap: 32em;
     top: 60px;
     width: 100%;
     height: calc(100vh - 60px);
