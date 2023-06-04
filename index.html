@@ -5,28 +5,63 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="x-icon" href="slike/logo.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Font Awesome ikone -->
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
 	<title>Šta Gledati Večeras</title>
+
+
+
 </head>
 <body>
 
-	<header>
+	
+
+	<nav>
+
 		<div class="naslov">
   			<a href="index.html"><img src="slike/logo.png" alt="logo" ></a>
-  			<h1><span>Šta Gledati Večeras</h1>
+  		
 		</div>
-		
-	<nav class="nav-area">
-			<ul>
-				<li class="nav-bar"><span><a href="#">Home</a></li>
-				<li class="nav-bar"><a href="#">Filmovi</a></li>
-				<li class="nav-bar"><a href="#">Serije</a></li>
-				<li class="nav-bar"><a href="#">Reditelji</a></li>
-				<li class="nav-bar"><a href="#">Kontakt</a></li>
-				
-			</ul>
-	</nav>
 
-	</header>
+      <a href="#home" id="logo">Šta Gledati Večeras</a>
+      <input type="checkbox" id="hamburger" />
+      <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
+      <ul>
+
+        <li>
+          <a href="#home" class="active">Home</a>
+        </li>
+        <li>
+          <a href="#about">Film</a>
+        </li>
+        <li>
+          <a href="#features">Serija</a>
+        </li>
+        <li>
+          <a href="#services">Reziseri</a>
+        </li>
+        <li>
+          <a href="#FAQ">O nama</a>
+        </li>
+      </ul>
+    </nav>
+
+	
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
