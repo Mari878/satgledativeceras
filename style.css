@@ -1,5 +1,5 @@
 * {
-	outline: 1px solid red;
+/*	outline: 1px solid red;*/
 	padding: 0;
 	margin: 0;
 }
@@ -116,6 +116,5 @@ ul a:hover {
 
 p {
 	margin-top: 55px;
-	color: lightblue;
-	background-color: darkblue;
+	color: whitesmoke;
 }
