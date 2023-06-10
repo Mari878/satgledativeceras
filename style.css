@@ -46,6 +46,8 @@ nav {
   background-color: rgba(239,224,142,255);
   color: rgba(108,9,4,255);
   padding: 0px 16px;
+  border-radius: 20px;
+  margin: 2px 2px;
 }
 nav a {
   text-decoration: none;
@@ -113,7 +115,8 @@ ul a:hover {
     height: calc(100vh - 60px);
     transition: 0.5s;
     width: 80%;
-    
+
+
 
   }
   input[type="checkbox"]:checked ~ ul {
