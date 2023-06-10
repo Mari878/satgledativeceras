@@ -120,7 +120,152 @@ ul a:hover {
 }
 
 
+/*ovo je kontakt adresa i ostalo*/
+.info1 {
+  background-image:url("slike/flase.png");
+  background-color:rgba(15,15,15,1);
+  padding-left: 70px;
+}
 
+.kontaktdopuna {
+  background: #0f0f0f;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+  padding: 2px;
+  display: inline-block;
+
+}
+
+.social-icons {
+  color: white;
+  padding-left: 70px;
+  font-size: 50px;
+  text-decoration: none;
+  margin: 0px;
+  transition-duration: 0.2s;
+}
+
+.social-icons:hover{
+  color: darkred;
+  font-size: 80px;
+
+}
+
+.tekst-iznad-mape{
+  background-color:rgba(0,0,0,0.7);
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+  padding: 2px;
+  display: inline-block;
+ }
+
+
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+
+    padding-top: 20px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin:  auto;
+    line-height: 20px;
+    font-size: 22px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px -50px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+
+
+}
+.socials a i{
+    font-size: 20px;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: auto;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
 
 
 
