@@ -11,7 +11,8 @@ body {
 	padding: 0;
 	height: 100vh;
 	width:100%;
-	background-image: url("slike/background.jpg");
+/*	background-image: url("slike/background.jpg");*/
+  background-color: #631F16;
 	background-size: cover;
 	background-position: center center;
 
@@ -87,22 +88,34 @@ ul a:hover {
 }
 
 .izgled-stranice {
-  margin: 20px;
+  margin: 50px 100px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #498EAF;
+/*  background-color: rgba(0, 0, 0, 0.8); */
+  border-radius: 20px;
 }
 
 .izgled-stranice img {
   float: left;
   margin: 5px;
-  width: 180px;
+  margin-left: 20px;
+  width: 220px;
 
 }
 
 .izgled-stranice p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 22px;
+  color: white;
   text-decoration: none;
+  padding: 5px 10px;
+
+}
+
+.naslov h1{
+  font-size: 30px;
+/*  color: white;*/
+  color: #E4DACE;
 
 }
 
@@ -112,9 +125,7 @@ ul a:hover {
 
 
 
-
-
-
+/*
 
 @media screen and (max-width: 600px) {
   label {
@@ -128,7 +139,7 @@ ul a:hover {
     align-items: center;
     justify-content: center;
     background-color: #d29999;
-/*  background-color: #add8e6;*/
+  background-color: #add8e6;
     gap: 2em;
     top: 66px;
     width: 100%;
@@ -152,3 +163,26 @@ p {
 	margin-top: 55px;
 	color: whitesmoke;
 }
+
+
+.izgled-stranice {
+  margin: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.izgled-stranice img {
+  float: left;
+  margin: 5px;
+  width: 180px;
+
+}
+
+.izgled-stranice p {
+  text-align: justify;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+*/
