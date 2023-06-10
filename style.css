@@ -77,6 +77,7 @@ ul a:hover {
   background-color: rgba(200,224,142,255);
   color: rgba(10,9,4,20);
   border-radius: 0.5em;
+
 }
 .active {
   border-bottom: 2px solid ;
@@ -105,12 +106,14 @@ ul a:hover {
     align-items: center;
     justify-content: center;
     background-color: #d29999;
-/*    background-color: #add8e6;*/
+/*  background-color: #add8e6;*/
     gap: 2em;
-    top: 60px;
+    top: 66px;
     width: 100%;
     height: calc(100vh - 60px);
     transition: 0.5s;
+    width: 80%;
+
   }
   input[type="checkbox"]:checked ~ ul {
     left: 0;
