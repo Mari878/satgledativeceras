@@ -26,14 +26,14 @@ body {
 .naslov{
 	
 	margin:0px;
-	padding: 0px;
+	padding: 3px;
 }
 
 .naslov img {
   float: left;
   width: 60px;
   height: 60px;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 
@@ -45,7 +45,7 @@ nav {
   justify-content: space-between;
   background-color: rgba(239,224,142,255);
   color: rgba(108,9,4,255);
-  padding: 1em;
+  padding: 0px 16px;
 }
 nav a {
   text-decoration: none;
@@ -74,13 +74,25 @@ ul a {
   padding: 0.5em;
 }
 ul a:hover {
-  background-color: rgba(239,224,142,255);
-  color: rgba(108,9,4,255);
+  background-color: rgba(200,224,142,255);
+  color: rgba(10,9,4,20);
   border-radius: 0.5em;
 }
 .active {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid ;
+  color: rgba(108,9,4,255);
+
 }
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
   label {
     display: block;
