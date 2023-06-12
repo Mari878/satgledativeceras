@@ -86,7 +86,7 @@ ul a {
 }
 ul a:hover {
   background-color: #efe08e;
-  color: white;
+  color: rgb(0, 0, 0);
 
 }
 .active {
