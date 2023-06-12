@@ -4,7 +4,7 @@
 	margin: 0;
 }
 body {
-	background-color: lightblue;
+	background-color: #CBD0D8  ;
 	image-size: cover;
 	font-family: arial;
 	margin: 0;
@@ -12,7 +12,7 @@ body {
 	height: 100vh;
 	width:100%;
 /*	background-image: url("slike/background.jpg");*/
-  background-color: #631F16;
+  /* background-color: #928d8d; */
 	background-size: cover;
 	background-position: center center;
 
@@ -22,6 +22,7 @@ body {
 .logo {
 	display: flex;
 	justify-content: left;
+  
 }
 
 .naslov{
@@ -32,8 +33,8 @@ body {
 
 .naslov img {
   float: left;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   margin-left: -10px;
 }
 
@@ -44,8 +45,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(239,224,142,255);
-  color: rgba(108,9,4,255);
+  background-color: #333D51 ;
+  color: white;
   padding: 0px 16px;
 /*  border-radius: 20px;*/
 /*  margin: 2px 2px;*/
@@ -53,12 +54,15 @@ nav {
 nav a {
   text-decoration: none;
   text-transform: capitalize;
-color: rgba(108,9,4,255);
+  color: white;
+  ;
 }
 
 #logo {
-  font-size: 1.2em;
+  font-size: 30px;
   font-weight: 600;
+  color: rgb(255, 255, 255);
+
 }
 input[type="checkbox"] {
   appearance: none;
@@ -72,41 +76,46 @@ ul {
   list-style: none;
   display: flex;
   gap: 1em;
+  
 }
 ul a {
   padding: 0.5em;
+
+  color: white;
+
 }
 ul a:hover {
-  background-color: rgba(200,224,142,255);
-  color: rgba(10,9,4,20);
+  background-color: #efe08e;
+  color: white;
 
 }
 .active {
   border-bottom: 2px solid ;
-  color: rgba(108,9,4,255);
+  color: #efe08e;
 
 }
 
 .izgled-stranice {
   margin: 50px 100px;
   text-align: center;
-  background-color: #498EAF;
+  background-color: #F4F3EA;
 /*  background-color: rgba(0, 0, 0, 0.8); */
   border-radius: 20px;
+  padding-bottom: 20px;
 }
 
 .izgled-stranice img {
   float: left;
   margin: 5px;
   margin-left: 20px;
-  width: 220px;
+  width: 180px;
 
 }
 
 .izgled-stranice p {
   text-align: justify;
   font-size: 22px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 5px 10px;
 
@@ -115,7 +124,7 @@ ul a:hover {
 .naslov h1{
   font-size: 30px;
 /*  color: white;*/
-  color: #E4DACE;
+  color: #000000;
 
 }
 
@@ -222,7 +231,7 @@ footer{
 
 }
 .socials a:hover i{
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 
 .footer-bottom{
@@ -239,7 +248,7 @@ float: left;
     text-transform: capitalize;
 }
 .footer-bottom p a{
-  color:#44bae8;
+  color:#000000;
   font-size: 14px;
   text-decoration: none;
 }
@@ -249,7 +258,7 @@ float: left;
     font-weight: 200;
 }
 .footer-menu{
-  float: right;
+  float: center;
 
 }
 .footer-menu ul{
@@ -260,11 +269,11 @@ padding-right: 10px;
 display: block;
 }
 .footer-menu ul li a{
-  color: #cfd2d6;
+  color: #ffffff;
   text-decoration: none;
 }
 .footer-menu ul li a:hover{
-  color: #27bcda;
+  color: #000000;
 }
 
 /*ovo je za dodavanje btn dugmeta*/
