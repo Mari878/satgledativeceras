@@ -132,6 +132,15 @@ ul a:hover {
 
 }
 
+.linkovinadnu a {
+  text-align: justify;
+  font-size: 18px;
+  color: rgb(139, 33, 33);
+  text-decoration: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  float: right;
+}
 
 /*ovo je kontakt footer i button-i za mreze*/
 
