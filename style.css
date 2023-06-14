@@ -433,6 +433,12 @@ display: block;
   
   }
 
+.yt-video iframe{
+  max-width: 350px;
+}
+
+
+
 
 /*ovo je kontakt footer i button-i za mreze*/
 
