@@ -98,6 +98,17 @@ ul a:hover {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .izgled-stranice {
   margin: 50px 100px;
   text-align: center;
@@ -445,7 +456,7 @@ footer{
 }
 .footer-content{
     display: flex;
-    align-items: left;
+    /* align-items: left; */
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -467,7 +478,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0px 10px -50px;
+    /* margin: 10px 0px 10px -50px; */
 }
 .socials li{
     margin: 0 10px;
