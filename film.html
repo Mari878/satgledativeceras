@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="x-icon" href="slike/logo.png">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="x-icon" href="slike/logo.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-  <!-- Font Awesome ikone -->
-  <link
+	<!-- Font Awesome ikone -->
+	<link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -19,54 +21,77 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
 
-  <title>Šta Gledati Večeras</title>
-
-
-
+    <title>Šta Gledati Večeras</title>
 </head>
+
+
+
 <body>
+    <header class="header">
 
+        <div class="naslov">
+            <a href="index.html"><img src="slike/logo.png" alt="logo" ></a>
+        </div>
 
-<nav>
-      <div class="naslov">
-        <a href="index.html"><img src="slike/logo.png" alt="logo" ></a>
-      </div>
+        <div class="header__content">
+            
+            <a href="index.html" class="logo">Šta Gledati Večeras</a>
 
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="film.html" class="nav__link">Film</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="serija.html" class="nav__link">Serija</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#" class="nav__link">Kategorije</a>
+                        <nav class="nav2">
+                            <ul class="nav__list2">
+                                <li class="nav__item">
+                                    <a href="index.html" class="nav__link">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="film.html" class="nav__link">Film</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="serija.html" class="nav__link">Serija</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Kategorije</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="reziser.html" class="nav__link">Režiseri</a>
+                                </li>
+            
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">O nama</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="reziser.html" class="nav__link">Režiseri</a>
+                    </li>
 
-      <a href="index.html" id="logo">Šta Gledati Večeras</a>
-      <input type="checkbox" id="hamburger" />
-      <label for="hamburger">
-        <i class="fa-solid fa-bars"></i>
-      </label>
-      <ul>
-        <li>
-          <a href="index.html" class="active">Home</a>
-        </li>
-        <li>
-          <a href="film.html">Film</a>
-        </li>
-        <li>
-          <a href="serija.html">Serija</a>
-        </li>
-        <li>
-          <a href="reziser.html">Režiseri</a>
-        </li>
-        <li>
-          <a href="about.html">O nama</a>
-        </li>
-      </ul>
-    </nav>
-  
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">O nama</a>
+                    </li>
+                </ul>
+            </nav>
 
-
-
-
-
-
-
+            <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            </div>
+        </div>
+    </header>
 
 
 
@@ -132,54 +157,16 @@
       
     </div>
 </div>
+      
+      
+      
+      
+      
+      
+      
+    <!-- ovo je za dodavanje btn dugmeta, ako ga dodajes, mora se koristiti link use.fontawesome.com u HEAD-u -->
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ovo je za dodavanje btn dugmeta, ako ga dodajes, mora se koristiti link use.fontawesome.com u HEAD-u -->
-<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
-
-  
-<footer>
-        <div class="footer-content">
-            <h3>Šta Gledati Večeras</h3>
-            <!-- <p>Milana Jovanovića 14a<br> -->
-            Radi od 2017te</p>
-            <ul class="socials">
-                <a class="social-icons" href="https://www.instagram.com/stagledativeceras_/"><ion-icon name="logo-instagram"></ion-icon> </a>
-                <a class="social-icons" href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon> </a><br>
-                <a class="social-icons" href="https://www.gmail.com/"><ion-icon name="mail-outline"></ion-icon> </a><br>
-
-               
-            </ul>
-        </div>
-        <div class="footer-bottom">
-                    <div class="footer-menu">
-                      <ul class="f-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="film.html">Film</a></li>
-                        <li><a href="serija.html">Serija</a></li>
-                        <li><a href="reziser.html">Režiseri</a></li>
-                        <li><a href="about.html">O nama</a></li>
-                      </ul>
-                    </div>
-
-        </div>
-
-    </footer>
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
