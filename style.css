@@ -153,7 +153,12 @@ font-size: 18px;
     text-decoration: none;
     float: right;
   }
-
+.mojaocena{
+  font-size: 18px;
+  font-weight: 500;
+  float: left;
+  margin: 3px 0px 3px 10px;
+}
   .yt-video iframe{
     max-width: 600px;
     max-height: 300px;
@@ -321,7 +326,9 @@ font-size: 18px;
     max-width: 320px;
     max-height: 200px;
   }
-
+  .mojaocena {
+    font-size: 15px;
+  }
 
 
 
@@ -467,7 +474,9 @@ font-size: 18px;
     color: #000000;
   
   }
-
+  .mojaocena {
+    font-size: 13px;
+  }
 
 
 }
