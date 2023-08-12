@@ -226,7 +226,10 @@ nav .content .links{
  margin-top: -40px;
  margin-left: -800px;
 }
-
+.dopuna{
+  text-align: left;
+  margin-left: 120px;
+}
 .naslov h1{
   font-size: 30px;
 /*  color: white;*/
