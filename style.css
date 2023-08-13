@@ -246,12 +246,14 @@ nav .content .links{
   padding: 5px 10px;
   text-decoration: none;
   float: right;
+  align-items: flex-start;
 }
 .mojaocena{
 font-size: 18px;
 font-weight: 500;
 float: left;
 margin: 3px 0px 3px 10px;
+text-align: left;
 }
 .yt-video iframe{
   max-width: 600px;
@@ -757,6 +759,7 @@ i#next {
   margin-right: 3px;
   margin-top: 5px;
   text-decoration: none;
+  
 }
 .mojaocena{
 font-size: 14px;
