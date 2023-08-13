@@ -577,7 +577,7 @@ i#next {
   }
 }
 
-@media screen and (max-width: 445px){
+/* @media screen and (max-width: 445px){
   .wrapper nav{
     padding: 0 10px;
   }
@@ -616,10 +616,10 @@ i#next {
   max-width: 320px;
   max-height: 200px;
 }
-}
+} */
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 445px){
 
 
    /* hover  */
