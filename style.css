@@ -396,8 +396,8 @@ i#next {
   right: 25px;
 }
 .image-container {
-  max-width: 600px;
-  max-height: 300px;
+  max-width: 900px;
+  max-height: 600px;
   width: 100%;
   overflow: hidden;
 }
@@ -408,14 +408,12 @@ i#next {
   transition: all 0.4s ease;
 }
 .carousel img {
-  height: 100%;
-  width: 100%;
+  height: fit-content;
+width: 100%;
   border-radius: 18px;
   border: 10px solid #fff;
   object-fit: fill;
 }
-
-
 
 
 

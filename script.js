@@ -20,7 +20,7 @@ const slideImage = () => {
   // Calculate the updated image index
   imageIndex = imageIndex === images.length ? 0 : imageIndex < 0 ? images.length - 1 : imageIndex;
   // Update the carousel display to show the specified image
-  carousel.style.transform = `translate(-${imageIndex * 112}%)`; 
+  carousel.style.transform = `translate(-${imageIndex * 110}%)`; 
 };// imageIndex * 100 je bio u originalu,sada je dobro na fonu, ai  n kompu zna da pobegne
 
 // A function that updates the carousel display to show the next or previous image
